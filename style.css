@@ -62,7 +62,8 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-pink);
+  background-color: var(--white-clr);
+  padding-bottom: 2em;
 }
 
 /* two-column grid */
