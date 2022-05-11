@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  /* outline: 1px solid red; */
+}
+:root {
+  --light-pink: #cd9c9b52;
+  --dark-pink: #c1adae;
+  --text-clr: #874e4d;
+  --white-clr: #f5f4f0;
+}
+body {
+  width: 100vw;
+  max-width: 800px;
+  margin-inline: auto;
+  background-color: var(--dark-pink);
+}
+li {
+  list-style: none;
+}
+main {
+  background-color: var(--white-clr);
+}
+hr {
+    border-top: 1px solid #874e4d;
+}
+header,
+section,
+footer,
+nav {
+  width: 100%;
+  padding: 3em;
+  gap: 2em;
+  background-color: var(--white-clr);
+}
+h2,
+h3 {
+  color: var(--text-clr);
+  font-family: "Inria Serif", serif;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* nav */
+header p {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 10px;
+  color: var(--text-clr);
+}
+/* hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--white-clr);
+  background-position: bottom -400px;
+}
+
+/* two-column grid */
+
+.grid-two img {
+  width: 200px;
+}
+
+.two-col-container {
+  display: flex;
+  justify-content: center;
+  background: var(--light-pink);
+}
+.grid-two {
+  display: flex;
+  padding: 2em;
+  gap: 3em;
+}
+
+.text-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 250px;
+}
+
+/* browse the petit amour */
+.grid-three {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-top: 70px;
+}
+.grid-three p {
+    text-align: center; 
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: var(--dark-pink);
+}
+
+/* tag the petit amour */
+.grid-six {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.grid-six img {
+  width: 100px;
+}
+
+/* footer */
+footer {
+  background-color: var(--light-pink);
+
+}
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.text-split {
+  max-width: 60%;
+  margin-top: 28px;
+}
+.order li,
+.connect li {
+  padding: 0.4em 0;
+}
